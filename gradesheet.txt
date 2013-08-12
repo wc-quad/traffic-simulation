@@ -1,0 +1,28 @@
+Gradesheet
+
+Project 2: Traffic Simulation
+
+Your score |	Max Score	Description
+Vehicle Class Hierarchy
+8/8 pts	Class hierarchy has same organization as described in the assignment .
+5/5 pts	Car.getInLine(), Car.getLaneChosen() are correct.
+5/5 pts	Truck.getInLine(), Truck.getLaneChosen() are correct.
+3/3 pts	EZPass.getInLine() is correct.
+
+Highway, TollBooth
+8/8 pts	Highway has data and methods as described in assignment, including correct 
+	relationships with VehicleQueue and VehiclesInLine).
+8/8 pts	TollBooth has data and methods as described in assignment.
+0/15 pts	TollBooth.timeWhenAvailable() is correctly computed.
+8/8 pts	Highway constructor correctly initializes its oncomingVehicles using the 
+	constructor parameter and the VehicleFactory.
+8/8 pts	Highway.processNextVehicle() and Highway.departTimeNextVehicle() are correct.
+8/8 pts	TollBooth.processNextVehicle() and TollBooth.departTimeNextVehicle() are correct.
+
+Log and Simulator
+6/6 pts	Log keeps track of and calculates statistics correctly.
+10/10 pts	Simulator.step() is correct.
+4/4 pts	Simulator.vehicleLeftSimulation() is correct.
+4/4 pts	Remaining Simulator methods are correct.
+
+GRADE 85
